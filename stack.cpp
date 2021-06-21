@@ -11,5 +11,5 @@ public:
  } else {
  return false;
  }
- }
- virtual bool _push(const int element) = 0;
+ };
+ virtual bool _push(const int element);
